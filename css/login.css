@@ -2,36 +2,21 @@
   margin: 0%;
   padding: 0%;
   box-sizing: content-box;
+  /* box-sizing: border-box; (bebas mau pake border atau content box, sesuai kebutuhan) */
 }
 .box {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   background-color: red;
   border: 12px solid black;
   padding: 20px;
 }
 
-button {
-  /* 20px: top 20px bottom 30px */
-  /* 30px: left 30px right 30px */
-  /* padding: top bottom left right */
-  padding: 20px 30px 20px 30px;
-  /* top right bottom left */
-  margin: 10px 20px 30px 40px;
-  /* margin: top right bottom left */
-  /* padding itu buat jarak didalam elemnt, sedangkan margin itu di luar element misal mau ngejarakin hallo dan login */
-  background-color: greenyellow;
-  border: 3px solid black;
-  border-radius: 15px;
-  cursor: pointer;
-  transition: 0.3s;
+.box2 {
+    position: relative;
+    background-color: blue;
 }
 
-button:hover {
-  background-color: red;
-}
-
-span {
-  background-color: blueviolet;
-  padding: 20px 30px;
+.box3 {
+    background-color: green;
 }
